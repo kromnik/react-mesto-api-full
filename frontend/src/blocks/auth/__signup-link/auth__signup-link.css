@@ -1,0 +1,10 @@
+.auth__signup-link {
+  text-decoration: none;
+  transition: opacity .4s;
+  color: #FFFFFF;
+}
+
+.auth__signup-link:hover {
+  opacity: .6;
+  cursor: pointer;
+}

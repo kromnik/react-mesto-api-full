@@ -1,0 +1,15 @@
+.auth {
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1279px) {
+  .auth {
+    max-width: 260px;
+  }
+}

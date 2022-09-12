@@ -1,0 +1,9 @@
+.header__user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 24px;
+  margin: 0;
+  padding-bottom: 6px;
+}

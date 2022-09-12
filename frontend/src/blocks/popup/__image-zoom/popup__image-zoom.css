@@ -1,0 +1,12 @@
+.popup__image-zoom {
+  max-width: 75vw;
+  max-height: 75vh;
+  margin-bottom: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  border: none;
+  color: #FFFFFF;
+}

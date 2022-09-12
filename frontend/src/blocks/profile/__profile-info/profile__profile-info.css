@@ -1,0 +1,24 @@
+.profile__profile-info {
+  max-width: 336px;
+  margin: 0 244px 0 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: 294px 24px;
+  grid-template-rows: 39px 18px;
+  gap: 16px 18px;
+  grid-template-areas: 
+    "h1 button"
+    "p p";
+}
+
+@media screen and (max-width: 1279px) {
+  .profile__profile-info {
+    max-width: 282px;
+    margin: 0 0 36px;
+    grid-template-columns: 189px 18px;
+    grid-template-rows: 26px 14px;
+    gap: 14px 10px;
+  }
+}

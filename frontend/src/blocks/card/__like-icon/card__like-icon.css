@@ -1,0 +1,18 @@
+.card__like-icon {
+  min-width: 22px;
+  height: 19px;
+  margin: 5px 5px 1px 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../../../images/card/card-like-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  border: none;
+  transition: opacity .4s;
+}
+
+.card__like-icon:hover {
+  opacity: .5;
+  cursor: pointer;
+}
